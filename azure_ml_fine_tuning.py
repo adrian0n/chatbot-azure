@@ -1,6 +1,6 @@
 """
-Azure ML Fine-tuning Script
-This script demonstrates how to fine-tune an LLM using Azure Machine Learning
+# 🚀 Azure ML Fine-tuning Script
+# 👨‍💻 @adrian0n
 """
 
 import os
