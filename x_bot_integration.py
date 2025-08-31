@@ -1,6 +1,7 @@
 """
-X (Twitter) Bot Integration Script
-This script demonstrates how to create a Twitter bot that uses an Azure-deployed LLM
+# 🚀 X (Twitter) Bot Integration Script
+# 👉 This script demonstrates how to create an X bot that uses an Azure-deployed LLM
+# 👨‍💻 @adrian0n
 """
 
 import tweepy
