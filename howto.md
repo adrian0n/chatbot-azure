@@ -93,8 +93,8 @@ bot.run_bot(check_interval=60)
 ├── azure_ml_fine_tuning.py    # Fine-tuning scripts for Azure ML
 ├── config.py                  # Configuration management
 ├── requirements.txt           # Python dependencies
-├── deployment_guide.md        # Comprehensive deployment guide
-└── README.md                  # This file
+├── howto.md                   # Comprehensive deployment guide
+└── README.md                  # README file
 ```
 
 ## Key Features
@@ -239,4 +239,9 @@ For issues and questions:
 - Microsoft Azure AI team for the foundational services
 - Twitter/X for the API platform
 - Open-source community for the underlying libraries
+
+
+#  ────────────────────────────────
+#      a d r i a n 0 n
+#  ────────────────────────────────
 
