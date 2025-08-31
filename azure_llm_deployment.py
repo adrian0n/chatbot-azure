@@ -1,6 +1,6 @@
 """
-Azure LLM Deployment Script
-This script demonstrates how to deploy and interact with an LLM on Azure AI Foundry
+# 🚀 Azure LLM Deployment Script
+# 👨‍💻 @adrian0n
 """
 
 import os
@@ -94,7 +94,7 @@ class AzureLLMDeployment:
             bool: True if endpoint is healthy, False otherwise
         """
         try:
-            test_response = self.generate_response("Hello, how are you?", max_tokens=10)
+            test_response = self.generate_response("Hey hey ce faci draga?", max_tokens=10)
             return "error" not in test_response
         except Exception as e:
             print(f"Health check failed: {e}")
@@ -104,7 +104,7 @@ class AzureLLMDeployment:
 if __name__ == "__main__":
     # Replace with your actual Azure ML endpoint URL and API key
     ENDPOINT_URL = "https://your-endpoint.azureml.net/score"
-    API_KEY = "your-api-key-here"
+    API_KEY = "api-key-here"
     
     # Initialize the deployment client
     llm_client = AzureLLMDeployment(ENDPOINT_URL, API_KEY)
@@ -114,7 +114,7 @@ if __name__ == "__main__":
         print("✅ Azure LLM endpoint is healthy")
         
         # Generate a sample response
-        test_prompt = "Explain the benefits of using Azure for AI development in 2-3 sentences."
+        test_prompt = "Make a flirty sentance about LoveSIRI that ends with 'draga' "
         response = llm_client.generate_response(test_prompt)
         
         if "error" not in response:
@@ -122,5 +122,5 @@ if __name__ == "__main__":
         else:
             print(f"❌ Error generating response: {response['error']}")
     else:
-        print("❌ Azure LLM endpoint is not healthy")
+        print("❌ Azure LLM endpoint is fucked")
 
