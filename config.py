@@ -1,6 +1,7 @@
 """
-Configuration file for Azure LLM Twitter Bot
-Store your credentials and configuration settings here
+# 🚀 Configuration file for Azure LLM Twitter Bot
+# 👉 Store your credentials and configuration settings here
+# 👨‍💻 @adrian0n
 """
 
 import os
